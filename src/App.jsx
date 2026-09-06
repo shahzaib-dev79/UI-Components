@@ -1,7 +1,11 @@
-import Navbar from "./Navbar/Navbar";
+import { PriceCard } from "./priceCards/priceCard";
 
 function App() {
-  return <Navbar />;
+  return (
+    <>
+      <PriceCard />
+    </>
+  );
 }
 
 export default App;

@@ -1,9 +1,9 @@
 export function PriceCard() {
   return (
-    <div>
+    <div className="w-dvw my-15 flex flex-col gap-5 items-center">
       <h1>Small Investment</h1>
       <h1>Huge productivity boost</h1>
-      <ul>
+      <ul className="flex gap-20">
         <li>One time purchase</li>
         <li>All the features in every plan</li>
         <li>30-day money back guarantee</li>
@@ -30,7 +30,7 @@ export function PriceCard() {
 
 function Card(props) {
   return (
-    <div>
+    <div className="border rounded-2xl p-10">
       <h1>{props.title}</h1>
       <h2>{props.subtitle}</h2>
       <div>
