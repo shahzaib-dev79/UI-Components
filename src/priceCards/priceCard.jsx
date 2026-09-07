@@ -1,12 +1,12 @@
 export function PriceCard() {
   return (
-    <div className="w-dvw my-15 flex flex-col gap-5 items-center">
-      <h1>Small Investment</h1>
-      <h1>Huge productivity boost</h1>
-      <ul className="flex gap-20">
-        <li>One time purchase</li>
-        <li>All the features in every plan</li>
-        <li>30-day money back guarantee</li>
+    <div className="w-dvw my-15 flex flex-col gap-3 items-center">
+      <h1 className="text-black font-extrabold">Small Investment</h1>
+      <h1 className="text-5xl font-semibold ">Huge productivity boost</h1>
+      <ul className="flex flex-wrap items-center justify-center gap-y-2 gap-x-4 text-sm text-zinc-800">
+        <span>One time purchase</span>
+        <span>All the features in every plan</span>
+        <span>30-day money back guarantee</span>
       </ul>
       <div>
         <Card
@@ -30,8 +30,8 @@ export function PriceCard() {
 
 function Card(props) {
   return (
-    <div className="border rounded-2xl p-10">
-      <h1>{props.title}</h1>
+    <div className="border rounded-2xl p-7">
+      <h1 className="">{props.title}</h1>
       <h2>{props.subtitle}</h2>
       <div>
         <p>${props.discPrice}</p>

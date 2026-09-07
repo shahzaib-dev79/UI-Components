@@ -1,4 +1,8 @@
+@import "tailwindcss/preflight";
 @import "tailwindcss";
+h1 {
+  @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold;
+}
 
 @theme {
   --color-brand-50: #fff7ed;
