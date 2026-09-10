@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="flex gap-5">
         {links.map((link) => {
           return (
-            <p className="text-[13px] flex gap-4">
+            <p className="text-lg flex gap-4 hover:scale-105 transition-all duration-200">
               <a href={link.path}>{link.name}</a>
             </p>
           );
