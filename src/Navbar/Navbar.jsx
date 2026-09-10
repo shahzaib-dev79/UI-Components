@@ -27,7 +27,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <div className="p-5 bg-amber-300 flex justify-around mx-auto rounded-2xl">
+    <div className="px-[5%] py-5 bg-amber-300 flex justify-between items-center mx-auto">
       <h1 className="text-md font-bold">
         <a href="/home">{logo}</a>
       </h1>
@@ -40,7 +40,9 @@ export default function Navbar() {
           );
         })}
       </div>
-      <button>Get Started</button>
+      <button className="bg-gray-700 hover:bg-gray-800 text-white border-gray-600">
+        Get Started
+      </button>
     </div>
   );
 }

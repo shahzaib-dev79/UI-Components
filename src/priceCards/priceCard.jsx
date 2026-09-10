@@ -30,7 +30,7 @@ export function PriceCard() {
 
 function Card(props) {
   return (
-    <div className="border rounded-2xl p-7">
+    <div className="card border rounded-2xl p-7">
       <h1 className="">{props.title}</h1>
       <h2>{props.subtitle}</h2>
       <div>

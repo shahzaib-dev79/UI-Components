@@ -1,9 +1,10 @@
-import { PriceCard } from "./priceCards/priceCard";
+import Navbar from "./Navbar/Navbar";
+// import { PriceCard } from "./priceCards/priceCard";
 
 function App() {
   return (
     <>
-      <PriceCard />
+      <Navbar />
     </>
   );
 }
