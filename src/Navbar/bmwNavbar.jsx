@@ -10,8 +10,8 @@ function HeroSection() {
     "About Us",
   ];
   return (
-    <section className=" text-white bg-[url('hero-background.webp')] bg-center bg-cover font-semibold">
-      <nav className="w-full flex items-center justify-between px-10 py-5 border-b-2 border-red">
+    <section className="w-full text-white bg-[url('hero-background.webp')] bg-center bg-cover font-semibold">
+      <nav className="w-[90%] mx-auto flex items-center justify-between py-5 border-b-2 border-red">
         <div className="flex items-center justify-center gap-10">
           <img src="/navicon.svg" alt="icon" />
           {links.map((link) => {
@@ -28,14 +28,14 @@ function HeroSection() {
           </a>
         </div>
       </nav>
-      <div>
+      <div className="w-[90%] mx-auto py-60 flex flex-col gap-5 ">
         <h1>LEASE THE 2026</h1>
         <h1>BMW X5 xDRIVE40i.</h1>
         <h4>
           $869 Per month with $6929 due at signing. Plus, loyalty credit upto
         </h4>
         <h4>$2000 fir qualified lessees. Now through September 30th.</h4>
-        <div>
+        <div className="">
           <button>Offer details</button>
           <button>See all offers</button>
         </div>
